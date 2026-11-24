@@ -1,0 +1,16 @@
+# ---- Web framework ----
+Flask>=3.0.0
+Werkzeug>=3.0.0
+
+# ---- Security ----
+# cryptography: generates the self-signed TLS certificate
+cryptography>=42.0.0
+
+# ---- Network monitoring ----
+psutil>=5.9.8
+
+# ---- Testing ----
+pytest>=8.0.0
+
+# ---- OPTIONAL: packet-level capture (needs admin rights; project works without it) ----
+# scapy>=2.5.0
